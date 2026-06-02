@@ -1,0 +1,22 @@
+# all markdown
+MD013: false # Line length
+MD007: # Unordered list indentation
+  indent: 4
+MD051: false # Link fragments should be valid
+
+# slides
+MD035: false # Horizontal rule style
+MD033:
+  allowed_elements: ["br", "div", "small", "span"]
+
+# need to be removed
+MD045: false # Images should have alternate text (alt text)
+MD025: false # Multiple top-level headings in the same document
+
+MD052: false # link-image-reference-definitions
+MD053: false # Link and image reference definitions should be needed
+MD041: false # First line in a file should be a top-level heading
+MD036: false # Emphasis used instead of a heading
+MD024: # Multiple headings with the same content
+  siblings_only: true
+MD059: false # Link text should be descriptive

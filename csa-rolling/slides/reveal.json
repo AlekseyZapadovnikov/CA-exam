@@ -1,0 +1,6 @@
+{
+  "controls": true,
+  "slideNumber": true,
+  "transition": "slide",
+  "transitionSpeed": "fast"
+}

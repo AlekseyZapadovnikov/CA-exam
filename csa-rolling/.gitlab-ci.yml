@@ -1,0 +1,46 @@
+# all jobs on deploy because markdownlint shouldn't block updates.
+
+markdownlint:
+  stage: test
+  image:
+    name: ghcr.io/igorshubovych/markdownlint-cli:latest
+    entrypoint: [""]
+  script:
+    - markdownlint --ignore "archive/**/*" . -c .markdownlint.yaml
+
+# build-lecture-notes:
+#   rules:
+#     - changes:
+#       - 'course-note/**/*'
+#   image:
+#     name: "ryukzak/latex-pandoc:latest"
+#     entrypoint: [""]
+#   stage: deploy
+#   script:
+#     - 'BASE_DIR=`pwd`'
+#     - 'LECTURE_NOTE_DIR="course-note/"'
+#     - 'pushd $LECTURE_NOTE_DIR'
+#     - 'LECTURE_NOTE_FILES=$(ls . | grep \.md$  | sort -f)'
+#     - | # set lecture-notes/ current directory for figures normal linking
+#       sed -ie 's/date: current/date: '"$(TZ=Europe/Moscow date +"%d %b %Y %H:%M")"'/' 00-info.md
+#     - 'pandoc $LECTURE_NOTE_FILES -s -o $BASE_DIR/course-note.html --table-of-contents --number-sections'
+#     - 'pandoc $LECTURE_NOTE_FILES -o $BASE_DIR/csa-notes.pdf'
+#     - 'popd'
+#     - 'mkdir -p public/html/'
+#     - 'cp *.html public/html/'
+#     - 'cp -R fig public/'
+#   artifacts:
+#     paths:
+#       - public
+#       - csa-notes.pdf
+
+image-size-check:
+  stage: test
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  image:
+    name: "alpine/httpie"  # the smallest from available
+    entrypoint: [""]
+  script:
+    - "./ci/check-image-size.sh"

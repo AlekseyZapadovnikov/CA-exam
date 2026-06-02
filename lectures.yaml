@@ -1,0 +1,144 @@
+lectures:
+  - id: lecture-01
+    title: "Введение. Вычислительные платформы. Структура курса. Оценивание"
+    youtube_url: "https://youtu.be/p7dKTKv9OKQ"
+    slides_path: "slides/lecture-01/slides.md"
+    course_repo_slides_path: "csa-rolling/slides/01-introduction.md"
+    course_note_path: "csa-rolling/course-note/01-course-description.md"
+    status: "ticket-draft"
+    notes: "Видео взято из `csa-rolling/README.md`; слайды импортированы из `csa-rolling/slides/01-introduction.md`; raw-транскрипт получен через fallback `pastecontext-api:auto-captions-ru`; билеты сгенерированы как черновик и требуют ручной проверки."
+
+  - id: lecture-02
+    title: "Информационные и управляющие системы. Системная инженерия. Архитектура компьютера"
+    youtube_url: "https://youtu.be/q0BOtARY40E"
+    slides_path: "slides/lecture-02/slides.md"
+    course_repo_slides_path: "csa-rolling/slides/02-system-and-architecture.md"
+    course_note_path: "csa-rolling/course-note/02-computer-sowtware-systems-architecture.md"
+    status: "todo"
+    notes: "Видео взято из `csa-rolling/README.md`; слайды импортированы из `csa-rolling/slides/02-system-and-architecture.md`."
+
+  - id: lecture-03
+    title: "Ещё не компьютеры. Реле"
+    youtube_url: "https://youtu.be/vC178P2VD3E"
+    slides_path: "slides/lecture-03/slides.md"
+    course_repo_slides_path: "csa-rolling/slides/03-non-electric-comp-and-rele-and-plc.md"
+    course_note_path: "csa-rolling/course-note/03-not-a-computer-relay-plc.md"
+    status: "todo"
+    notes: "Видео взято из `csa-rolling/README.md`; слайды импортированы из `csa-rolling/slides/03-non-electric-comp-and-rele-and-plc.md`."
+
+  - id: lecture-04
+    title: "ПЛК. Цифровая схемотехника. Комбинационные схемы"
+    youtube_url: "https://youtu.be/lZKa0IwS1YQ"
+    slides_path: "slides/lecture-04/slides.md"
+    course_repo_slides_path: "csa-rolling/slides/04-plc-digital-schemes.md"
+    course_note_path: "csa-rolling/course-note/04-binary-digital-scheme-state-condition.md"
+    status: "todo"
+    notes: "Видео взято из `csa-rolling/README.md`; слайды импортированы из `csa-rolling/slides/04-plc-digital-schemes.md`."
+
+  - id: lecture-05
+    title: "Схемы с состоянием. Монтаж РЭА. Кремниевое производство."
+    youtube_url: "https://youtu.be/Ls7ytNSXHOA"
+    slides_path: "slides/lecture-05/slides.md"
+    course_repo_slides_path: "csa-rolling/slides/05-hardware-fabric.md"
+    course_note_path: "csa-rolling/course-note/05-fabric-hardware-problems-2-step-manufacture.md"
+    status: "todo"
+    notes: "Видео взято из `csa-rolling/README.md`; слайды импортированы из `csa-rolling/slides/05-hardware-fabric.md`. [проверить] Название видео шире названия slide-deck."
+
+  - id: lecture-06
+    title: "Проблемы аппаратуры. 2 этапа производства. Hardware/Software. Программа. MoC"
+    youtube_url: "https://youtu.be/uffz0StclLs"
+    slides_path: "slides/lecture-06/slides.md"
+    course_repo_slides_path: "csa-rolling/slides/06-hw-sw-program-moc.md"
+    course_note_path: "csa-rolling/course-note/06-hw-sw-moc-mde.md"
+    status: "todo"
+    notes: "Видео взято из `csa-rolling/README.md`; слайды импортированы из `csa-rolling/slides/06-hw-sw-program-moc.md`."
+
+  - id: lecture-07
+    title: "Model Driven Engineering. Унивесальная машина. Машина фон Неймана. CU и DataPath"
+    youtube_url: "https://youtu.be/6bV_7fyEPRc"
+    slides_path: "slides/lecture-07/slides.md"
+    course_repo_slides_path: "csa-rolling/slides/07-von-neumann-processor.md"
+    course_note_path: "csa-rolling/course-note/07-universal-processor-types-neumann-harvard.md"
+    status: "todo"
+    notes: "Видео взято из `csa-rolling/README.md`; слайды импортированы из `csa-rolling/slides/07-von-neumann-processor.md`."
+
+  - id: lecture-08
+    title: "Гарвард и Принстон. ISA Overview. Пример процессора. CISC. Microcode. NISC. Стековые процессоры"
+    youtube_url: "https://youtu.be/UwjJtNHhiDA"
+    slides_path: "slides/lecture-08/slides.md"
+    course_repo_slides_path: "csa-rolling/slides/08-harvard-cisc-microcode.md"
+    course_note_path: "csa-rolling/course-note/08-isa-overview-cisc-microccode-nisc.md"
+    status: "todo"
+    notes: "Видео взято из `csa-rolling/README.md`; слайды импортированы из `csa-rolling/slides/08-harvard-cisc-microcode.md`. [проверить] В README после ссылки отдельно указаны стековые процессоры."
+
+  - id: lecture-09
+    title: "Законы. RISC. Pipeline. Struct & Data conflict"
+    youtube_url: "https://youtu.be/Sq_4mV-6Bmg"
+    slides_path: "slides/lecture-09/slides.md"
+    course_repo_slides_path: "csa-rolling/slides/09-stack-risc-pipeline.md"
+    course_note_path: "csa-rolling/course-note/09-stack-risc-pipeline.md"
+    status: "todo"
+    notes: "Видео взято из `csa-rolling/README.md`; слайды импортированы из `csa-rolling/slides/09-stack-risc-pipeline.md`."
+
+  - id: lecture-10
+    title: "Control conflict. Ввод-вывод, ISA. Программный ввод-вывод"
+    youtube_url: "https://youtu.be/5onNY-mGAy4"
+    slides_path: "slides/lecture-10/slides.md"
+    course_repo_slides_path: "csa-rolling/slides/10-io-pmio-mmio-polling.md"
+    course_note_path: "csa-rolling/course-note/10-io-mem-port-map-sw-io-cooperative-multitasking.md"
+    status: "todo"
+    notes: "Видео взято из `csa-rolling/README.md`; слайды импортированы из `csa-rolling/slides/10-io-pmio-mmio-polling.md`."
+
+  - id: lecture-11
+    title: "Кооперативная и вытесняющая многозадачность. Система прерываний"
+    youtube_url: "https://youtu.be/Qd5pZLik0r4"
+    slides_path: "slides/lecture-11/slides.md"
+    course_repo_slides_path: "csa-rolling/slides/11-parallelism-interuption-isolation.md"
+    course_note_path: "csa-rolling/course-note/11-permutative-multitask-isolation-interuption.md"
+    status: "todo"
+    notes: "Видео взято из `csa-rolling/README.md`; слайды импортированы из `csa-rolling/slides/11-parallelism-interuption-isolation.md`."
+
+  - id: lecture-12
+    title: "Изоляция процессов. DMA"
+    youtube_url: "https://youtu.be/ytupfP3QZc8"
+    slides_path: "slides/lecture-12/slides.md"
+    course_repo_slides_path: "csa-rolling/slides/11-parallelism-interuption-isolation.md"
+    course_note_path: "csa-rolling/course-note/11-permutative-multitask-isolation-interuption.md"
+    status: "todo"
+    notes: "Видео взято из `csa-rolling/README.md`. [проверить] Отдельный slide-deck для видео 12 не найден; релевантные темы изоляции и DMA находятся в deck 11."
+
+  - id: lecture-13
+    title: "Иерархия памяти. Устройство памяти. Кеширование"
+    youtube_url: "https://youtu.be/447re9HXqJ0"
+    slides_path: "slides/lecture-13/slides.md"
+    course_repo_slides_path: "csa-rolling/slides/12-memory-hierarchy-ram.md"
+    course_note_path: "csa-rolling/course-note/12-memory-hierarchy-cells-cache.md"
+    status: "todo"
+    notes: "Видео взято из `csa-rolling/README.md`; слайды импортированы из `csa-rolling/slides/12-memory-hierarchy-ram.md`. [проверить] Номер slide-deck в репозитории отличается от номера видео."
+
+  - id: lecture-14
+    title: "Кеш, ассоциативность. Многоуровневый кеш. Непрозрачность кеша"
+    youtube_url: "https://youtu.be/gYdmNStwJ5U"
+    slides_path: "slides/lecture-14/slides.md"
+    course_repo_slides_path: "csa-rolling/slides/13-cache.md"
+    course_note_path: "csa-rolling/course-note/13-cache-associative-multilevel-cache-non-tasperency.md"
+    status: "todo"
+    notes: "Видео взято из `csa-rolling/README.md`; слайды импортированы из `csa-rolling/slides/13-cache.md`. [проверить] Номер slide-deck в репозитории отличается от номера видео."
+
+  - id: lecture-15
+    title: "Уровневая организация. Низкоуровневый параллелизм. Суперскаляр. VLIW. Языки высокого уровня. ПЛИС. Параллельные процессоры. Флинн"
+    youtube_url: "https://youtu.be/oj-HlXBLb7Y"
+    slides_path: "slides/lecture-15/slides.md"
+    course_repo_slides_path: "csa-rolling/slides/14-level-arch-highlang-low-level-parallel-hw-like-sw.md; csa-rolling/slides/15-fpga-hls-flynn.md"
+    course_note_path: "csa-rolling/course-note/14-level-org-low-level-parallelism-superscalar-vliw.md; csa-rolling/course-note/15-high-level-lang-fpga-parallel-processor-flinn.md"
+    status: "todo"
+    notes: "Видео взято из `csa-rolling/README.md`; слайды собраны из двух deck: lecture 14 и lecture 15. [проверить] В README тема видео 15 объединяет оба блока."
+
+  - id: lecture-16
+    title: "Дункан. CGRA"
+    youtube_url: "[нет в источниках]"
+    slides_path: "slides/lecture-16/slides.md"
+    course_repo_slides_path: "csa-rolling/slides/16-duncan-cgra.md"
+    course_note_path: "csa-rolling/course-note/16-duncan-cgra.md"
+    status: "todo"
+    notes: "В `csa-rolling/README.md` для лекции 16 указана тема, но ссылка на YouTube не указана. Слайды импортированы из `csa-rolling/slides/16-duncan-cgra.md`."
