@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="697" viewBox="0 0 1240 697">
+  <rect width="1240" height="697" fill="#ffffff"/>
+  <text x="620" y="112" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" fill="#111111">Система как Жизненный цикл</text>
+  <text x="620" y="222" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="40" fill="#333333">Жизненный цикл системы — эволюция интересующей системы во</text>
+  <text x="620" y="276" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="40" fill="#333333">времени от концепции до вывода из эксплуатации.</text>
+  <text x="620" y="374" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="40" fill="#333333">Типовые стадии:</text>
+  <g font-family="Times New Roman, Times, serif" font-size="39" fill="#333333">
+    <text x="305" y="448">1.&#160;&#160;Концептуальный этап</text>
+    <text x="305" y="495">2.&#160;&#160;Этап разработки</text>
+    <text x="305" y="542">3.&#160;&#160;Этап производства</text>
+    <text x="305" y="589">4.&#160;&#160;Этап утилизации (англ. utilization)</text>
+    <text x="305" y="636">5.&#160;&#160;Этап поддержки</text>
+    <text x="305" y="683">6.&#160;&#160;Этап вывода из эксплуатации</text>
+  </g>
+</svg>
