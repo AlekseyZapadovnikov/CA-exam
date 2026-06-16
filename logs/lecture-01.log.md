@@ -30,3 +30,7 @@ If you are sure that the described cause is not responsible for this error and t
 - `tickets/lecture-01.md`
 
 Билет является черновиком по автотранскрипту и слайдам; места, требующие сверки, помечены `[проверить]`.
+
+## 2026-06-14T19:19:19+00:00 — SKIP
+
+`transcript.raw.md` уже содержит ручной или непустой текст. Файл не перезаписан. Используй --overwrite, если это нужно.

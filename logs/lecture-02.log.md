@@ -29,3 +29,7 @@ Could not retrieve a transcript for the video https://www.youtube.com/watch?v=q0
 Request to YouTube failed: 503 Server Error: Service Unavailable for url: https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+
+## 2026-06-14T19:19:20+00:00 — SKIP
+
+`transcript.raw.md` уже содержит ручной или непустой текст. Файл не перезаписан. Используй --overwrite, если это нужно.

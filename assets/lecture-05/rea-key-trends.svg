@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text x="800" y="190" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="700" fill="#111111">
+    <tspan x="800" dy="0">Монтаж радиоэлектронной</tspan>
+    <tspan x="800" dy="105">аппаратуры (РЭА)</tspan>
+  </text>
+  <text x="800" y="445" text-anchor="middle" font-family="Times New Roman, serif" font-size="48" fill="#222222">
+    Ключевые тенденции:
+  </text>
+  <text x="300" y="555" font-family="Times New Roman, serif" font-size="46" fill="#222222">
+    <tspan x="300" dy="0">1. рост уровня интеграции</tspan>
+    <tspan x="300" dy="70">2. снижение затрат на производство изделия</tspan>
+    <tspan x="300" dy="70">3. усложнение производственной цепочки</tspan>
+  </text>
+</svg>
